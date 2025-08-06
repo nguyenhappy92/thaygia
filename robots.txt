@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://nhathuocbac.com/sitemap.xml
+Sitemap: https://nhathuocbacthaygia.com/sitemap.xml
 
 # Disallow admin areas (if any)
 Disallow: /admin/

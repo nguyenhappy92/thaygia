@@ -106,7 +106,7 @@ Chỉnh sửa trong file `index.html`:
 <p>0901 234 567</p>
 
 <!-- Thay đổi email -->
-<p>info@nhathuocbac.com</p>
+<p>info@nhathuocbacthaygia.com</p>
 ```
 
 ### Thay Đổi Màu Sắc
@@ -154,7 +154,7 @@ Thêm vào `<head>` của `index.html`:
 
 - **Địa chỉ:** Số 3, đường 12, xã Sơn Mỹ, tỉnh Lâm Đồng (Bình Thuận Cũ)
 - **Điện thoại:** 0901 234 567
-- **Email:** info@nhathuocbac.com
+- **Email:** info@nhathuocbacthaygia.com
 - **Giờ làm việc:** Thứ 2 - Chủ nhật: 7:00 - 21:00
 
 ## 📄 License
