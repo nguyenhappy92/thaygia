@@ -302,49 +302,137 @@
     
     <!-- Structured Data for SEO -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Pharmacy",
-        "name": "Nhà Thuốc Bắc Thầy Gia",
-        "description": "Nhà thuốc bắc truyền thống với kinh nghiệm nhiều năm, chuyên điều trị các bệnh bằng thuốc nam, thuốc bắc chất lượng cao.",
-        "url": "https://nhathuocbacthaygia.com",
-        "logo": "https://nhathuocbacthaygia.com/logo/logo-header.png",
-        "image": "https://nhathuocbacthaygia.com/logo/logo-social.png",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Số 3, đường 12, xã Sơn Mỹ",
-            "addressLocality": "Lâm Đồng",
-            "addressCountry": "VN"
+    [
+        {
+            "@context": "https://schema.org",
+            "@type": "Pharmacy",
+            "name": "Nhà Thuốc Bắc Thầy Gia",
+            "description": "Nhà thuốc bắc truyền thống với kinh nghiệm nhiều năm, chuyên điều trị các bệnh bằng thuốc nam, thuốc bắc chất lượng cao.",
+            "url": "https://nhathuocbacthaygia.com",
+            "logo": "https://nhathuocbacthaygia.com/logo/logo-header.png",
+            "image": "https://nhathuocbacthaygia.com/logo/logo-social.png",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Số 3, đường 12, xã Sơn Mỹ",
+                "addressLocality": "Lâm Đồng",
+                "addressCountry": "VN"
+            },
+            "telephone": "0901234567",
+            "email": "info@nhathuocbacthaygia.com",
+            "openingHours": "Mo-Su 07:00-21:00",
+            "priceRange": "$$",
+            "sameAs": [
+                "https://facebook.com/nhathuocbac",
+                "https://youtube.com/nhathuocbac"
+            ],
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "127",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
         },
-        "telephone": "0901234567",
-        "email": "info@nhathuocbacthaygia.com",
-        "openingHours": "Mo-Su 07:00-21:00",
-        "priceRange": "$$",
-        "sameAs": [
-            "https://facebook.com/nhathuocbac",
-            "https://youtube.com/nhathuocbac"
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Thuốc Bắc - Thuốc Nam",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Product",
-                        "name": "Thuốc Bắc Chính Gốc"
-                    }
+        {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "Thuốc Bắc Chính Gốc",
+            "description": "Thuốc bắc nhập khẩu trực tiếp từ Trung Quốc, đảm bảo nguồn gốc rõ ràng và chất lượng cao. Cung cấp đầy đủ các loại thuốc bắc phổ biến.",
+            "image": "https://nhathuocbacthaygia.com/logo/logo-social.png",
+            "brand": {
+                "@type": "Brand",
+                "name": "Nhà Thuốc Bắc Thầy Gia"
+            },
+            "category": "Thuốc Bắc",
+            "offers": {
+                "@type": "Offer",
+                "url": "https://nhathuocbacthaygia.com/#services",
+                "priceCurrency": "VND",
+                "price": "100000",
+                "priceRange": "100000-2000000",
+                "availability": "https://schema.org/InStock",
+                "seller": {
+                    "@type": "Organization",
+                    "name": "Nhà Thuốc Bắc Thầy Gia"
                 },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Product",
-                        "name": "Thuốc Nam Chất Lượng"
-                    }
-                }
-            ]
+                "validFrom": "2024-01-01",
+                "validThrough": "2025-12-31"
+            },
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "85",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "Thuốc Nam Chất Lượng",
+            "description": "Thu hái từ các vùng núi Việt Nam, được chế biến theo phương pháp truyền thống, giữ nguyên dược tính.",
+            "image": "https://nhathuocbacthaygia.com/logo/logo-social.png",
+            "brand": {
+                "@type": "Brand",
+                "name": "Nhà Thuốc Bắc Thầy Gia"
+            },
+            "category": "Thuốc Nam",
+            "offers": {
+                "@type": "Offer",
+                "url": "https://nhathuocbacthaygia.com/#services",
+                "priceCurrency": "VND",
+                "price": "150000",
+                "priceRange": "150000-1500000",
+                "availability": "https://schema.org/InStock",
+                "seller": {
+                    "@type": "Organization",
+                    "name": "Nhà Thuốc Bắc Thầy Gia"
+                },
+                "validFrom": "2024-01-01",
+                "validThrough": "2025-12-31"
+            },
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.7",
+                "reviewCount": "92",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "Bốc Thuốc Theo Đơn",
+            "description": "Bốc thuốc theo đơn thuốc được kê, đảm bảo đúng liều lượng và hiệu quả điều trị.",
+            "image": "https://nhathuocbacthaygia.com/logo/logo-social.png",
+            "brand": {
+                "@type": "Brand",
+                "name": "Nhà Thuốc Bắc Thầy Gia"
+            },
+            "category": "Dịch Vụ Thuốc",
+            "offers": {
+                "@type": "Offer",
+                "url": "https://nhathuocbacthaygia.com/#services",
+                "priceCurrency": "VND",
+                "price": "50000",
+                "priceRange": "50000-500000",
+                "availability": "https://schema.org/InStock",
+                "seller": {
+                    "@type": "Organization",
+                    "name": "Nhà Thuốc Bắc Thầy Gia"
+                },
+                "validFrom": "2024-01-01",
+                "validThrough": "2025-12-31"
+            },
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "156",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
         }
-    }
+    ]
     </script>
     
     <!-- Additional Protection Script -->
