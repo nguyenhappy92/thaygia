@@ -1,9 +1,30 @@
 User-agent: *
 Allow: /
+Allow: /logo/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.ico
 
-# Sitemap
-Sitemap: https://nhathuocbacthaygia.com/sitemap.xml
+# Encourage crawling of important pages
+Crawl-delay: 1
+
+# Block search engines from indexing certain file types
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.docx$
 
 # Disallow admin areas (if any)
 Disallow: /admin/
-Disallow: /private/ 
+Disallow: /private/
+Disallow: /test/
+Disallow: /backup/
+
+# Sitemap locations
+Sitemap: https://nhathuocbacthaygia.com/sitemap.xml
+
+# Host directive (preferred domain)
+Host: https://nhathuocbacthaygia.com 
